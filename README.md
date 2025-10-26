@@ -31,17 +31,23 @@ Aqui estão alguns dos comandos do Git:
 
 - `git status`: Mostra o estado atual do repositório.
 - `git init`: Inicializa um novo repositório Git.
-- `git clone <url>`: Clona um repositório remoto.
+- `git clone <url>`: Cria uma cópia local de um repositório remoto.
 - `git add <arquivo>`: Adiciona um arquivo ao índice (staging area).
 - `git commit -m "<mensagem>"`: Cria um novo commit com uma mensagem descritiva.
 - `git commit --amend`: Modifica o commit mais recente.
 - `git push`: Envia as alterações locais para o repositório remoto.
 - `git pull`: Atualiza o repositório local com as alterações do remoto.
 - `git branch`: Lista, cria ou exclui branches.
+- `git branch -m <nome_antigo> <nome_novo>`: Renomeia uma branch.
+- `git branch -d <branch>`: Exclui a branch especificada.
+- `git switch <branch>`: Muda para a branch especificada (alternativa ao `git checkout`).
+- `git switch -c <branch>`: Cria e muda para uma nova branch.
 - `git checkout <branch>`: Muda para a branch especificada.
+- `git checkout -b <branch>`: Cria e muda para uma nova branch.
 - `git merge <branch>`: Mescla a branch especificada na branch atual.
 - `git log`: Exibe o histórico de commits.
 - `git diff`: Mostra as diferenças entre commits, branches ou arquivos.
+- `git diff --staged`: Mostra as diferenças entre o índice (staging area) e o último commit.
 - `git reset <commit>`: Reverte o repositório para um commit anterior.
 - `git stash`: Salva temporariamente as alterações não commitadas.
 - `git remote`: Gerencia repositórios remotos.
@@ -71,3 +77,9 @@ Aqui estão algumas dúvidas comuns sobre Git:
 
 - **O que é o staging area?**
   O staging area é uma área temporária onde você prepara as alterações antes de fazer um commit. Você adiciona arquivos ao staging area usando `git add`, e quando estiver pronto, faz o commit dessas alterações.
+
+- **Qual a diferença entre `git diff --staged` e `git diff --cached`?**
+  Ambos os comandos são equivalentes e mostram as diferenças entre o índice (staging area) e o último commit. Eles ajudam a revisar as alterações que serão incluídas no próximo commit.
+
+- **Qual a diferença entre Git e GitHub?**
+  Git é um sistema de controle de versão distribuído que permite rastrear alterações no código-fonte ao longo do tempo. GitHub, por outro lado, é uma plataforma de hospedagem de repositórios Git na nuvem, que oferece recursos adicionais como colaboração, revisão de código e integração contínua.
