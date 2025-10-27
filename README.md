@@ -44,13 +44,17 @@ Aqui estão alguns dos comandos do Git:
 - `git switch -c <branch>`: Cria e muda para uma nova branch.
 - `git checkout <branch>`: Muda para a branch especificada.
 - `git checkout -b <branch>`: Cria e muda para uma nova branch.
+- `git checkout HEAD <arquivo>`: Restaura um arquivo para o estado do último commit.
+- `git restore <arquivo>`: Restaura um arquivo para o estado do último commit (alternativa ao `git checkout HEAD <arquivo>`).
 - `git merge <branch>`: Mescla a branch especificada na branch atual.
 - `git log`: Exibe o histórico de commits.
 - `git diff`: Mostra as diferenças entre commits, branches ou arquivos.
 - `git diff --staged`: Mostra as diferenças entre o índice (staging area) e o último commit.
 - `git reset <commit>`: Reverte o repositório para um commit anterior.
 - `git stash`: Salva temporariamente as alterações não commitadas.
+- `git stash pop`: Restaura as alterações salvas no stash.
 - `git remote`: Gerencia repositórios remotos.
+- `git remote add <nome> <url>`: Adiciona um repositório remoto.
 - `git fetch`: Baixa as alterações do repositório remoto sem mesclá-las.
 - `git tag <nome>`: Cria uma tag para marcar pontos específicos na história do commit.
 - `git rebase <branch>`: Reaplica commits em cima de outra base.
