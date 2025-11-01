@@ -25,6 +25,7 @@ Aqui estão alguns dos conceitos fundamentais do Git:
 - **Rebase**: Uma técnica para aplicar commits de uma branch em outra, reescrevendo o histórico.
 - **Cherry-pick**: Ação de aplicar um commit específico de uma branch em outra.
 - **Stash**: Uma funcionalidade que permite salvar temporariamente alterações não commitadas para que você possa trabalhar em outra coisa.
+- **README**: Um arquivo que contém informações sobre o projeto, como instruções de instalação e uso.
 
 ## COMANDOS GIT
 Aqui estão alguns dos comandos do Git:
