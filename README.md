@@ -67,6 +67,7 @@ Aqui estão alguns dos comandos do Git:
 - `git archive`: Cria um arquivo compactado do conteúdo de um repositório.
 - `git bisect`: Ajuda a encontrar o commit que introduziu um bug usando busca binária.
 - `git reflog`: Mostra o histórico de referências do repositório.
+<!-- - `git fork`: Cria uma cópia de um repositório para fazer alterações sem afetar o original (geralmente usado em plataformas como GitHub). -->
 
 ## DÚVIDAS COMUNS
 Aqui estão algumas dúvidas comuns sobre Git:
