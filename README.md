@@ -1,3 +1,9 @@
+ATUALIZAR README.md
+feature branch
+different users branch
+atomic commits
+git commit messages convention
+
 # REPOSITÓRIO GIT
 Este repositório contém uma coleção de conceitos e comandos essenciais do Git, uma ferramenta de controle de versão amplamente utilizada no desenvolvimento de software.
 
@@ -6,6 +12,7 @@ Aqui estão alguns dos conceitos fundamentais do Git:
  
 - **Git**: Um sistema de controle de versão distribuído que permite a colaboração eficiente entre desenvolvedores.
 - **Controle de Versão**: Um sistema que registra alterações em arquivos ao longo do tempo, permitindo que você volte a versões anteriores se necessário.
+  Exemplos: Git, SVN, Mercurial.
 - **Snapshot**: Uma representação do estado do projeto em um momento específico.
 - **GitHub/GitLab/Bitbucket**: Plataformas de hospedagem de repositórios Git que facilitam a colaboração e o gerenciamento de projetos.
 - **Repositório Local**: A cópia do repositório que reside no computador do desenvolvedor.
@@ -13,6 +20,13 @@ Aqui estão alguns dos conceitos fundamentais do Git:
 - **Repositório**: Um diretório que contém todos os arquivos e histórico de versões de um projeto.
 - **Commit**: Uma captura do estado atual do repositório em um determinado momento.
 - **Branch**: Uma linha de desenvolvimento independente dentro de um repositório.
+  Exemplos: main, develop, feature/login.
+- **Feature Branch**: Uma branch criada para desenvolver uma nova funcionalidade específica.
+- **Main/Master Branch**: A branch principal onde o código está sempre em um estado estável.
+- **Develop Branch**: Uma branch onde o desenvolvimento ativo ocorre, geralmente usada para integrar novas funcionalidades antes de mesclá-las na main.
+- **Atomic Commits**: Commits que contêm mudanças relacionadas a uma única tarefa ou funcionalidade, facilitando a revisão e o rastreamento de alterações.
+- **Git Commit Messages Convention**: Um conjunto de diretrizes para escrever mensagens de commit claras e consistentes.
+  Exemplos: Conventional Commits, Angular Commit Messages.
 - **Merge**: O ato de unir duas branches diferentes.
 - **Clone**: Uma cópia completa de um repositório remoto.
 - **Fork**: Uma cópia de um repositório que permite fazer alterações sem afetar o original.
@@ -21,6 +35,8 @@ Aqui estão alguns dos conceitos fundamentais do Git:
 - **Staging Area**: Uma área temporária onde as alterações são preparadas antes de serem commitadas.
 - **Remote**: Um repositório hospedado em um servidor remoto, como GitHub ou GitLab.
 - **Tag**: Um marcador usado para identificar pontos específicos na história do commit, como versões de lançamento.
+  Convenções comuns: Semântica (major.minor.patch), datas (2023-10-15). Exemplos: v1.0.0, v2.1.3, 2023-10-15.
+- **Semantic Versioning**: Uma convenção de versionamento que utiliza três números (major.minor.patch) para indicar mudanças no software.
 - **HEAD**: Um ponteiro que aponta para o commit atual em que você está trabalhando.
 - **Rebase**: Uma técnica para aplicar commits de uma branch em outra, reescrevendo o histórico.
 - **Cherry-pick**: Ação de aplicar um commit específico de uma branch em outra.
